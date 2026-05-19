@@ -27,12 +27,12 @@ export const NavbarBrand = () => {
                 >
                     {name}
                 </span>
-                <span
+                {/* <span
                     className="items-center rounded-lg bg-emerald-500/10 dark:bg-emerald-500/20 px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-emerald-600 dark:text-emerald-400 border border-emerald-500/20"
                     aria-label={ariaLabel}
                 >
                     {text}
-                </span>
+                </span> */}
             </div>
         </Link>
     );
