@@ -54,7 +54,7 @@ export default async function RootLayout({
               hideDefaultCursor={true}
             />
             <OfflineAlert />
-            <BetaNotice />
+            {/* <BetaNotice /> */}
             <div className="flex flex-col">
               <ComponentDataProvider>
                 <div className="sticky top-0 z-50 shrink-0 h-[10dvh] w-full bg-zinc-50/80 dark:bg-zinc-950/80 backdrop-blur-sm border-b border-zinc-200 dark:border-zinc-800">
